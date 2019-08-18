@@ -138,7 +138,7 @@ p {
   font-weight: 300;
 }
 .about-section .progress-img {
-  background-image: url(images/about-img.jpg);
+  background-image: url(/images/about-img.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -172,6 +172,9 @@ p {
   position: absolute;
   right: 0;
   top: 0;
+}
+.about-section .skills .progress-bar {
+  background-color: black;
 }
 /*SERVICE SECTION*/
 .serv-section {
